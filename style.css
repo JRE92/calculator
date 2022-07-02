@@ -4,6 +4,7 @@ body{
 }
 h1{
     font-family: "smooch";
+    font-weight: bolder;
 }
 #div1{
     text-align: center;
