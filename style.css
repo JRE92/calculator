@@ -4,7 +4,13 @@ body{
 }
 h1{
     /* font-family: "smooch"; */
-    font-weight: bolder;
+    font-weight:  lighter;
+    color: rgb(177, 179, 248);
+    text-shadow: 
+    0 0 20px rgb(139, 139, 245),
+    0 0 30px rgb(74, 74, 243),
+    0 0 30px rgb(36, 36, 244),
+    0 0 30px rgb(8, 8, 242);
 }
 #div1{
     text-align: center;
@@ -34,14 +40,12 @@ h1{
 
     
 
-    color: rgb(239, 210, 247);
+    color: rgb(243, 237, 244);
     text-shadow: 
-    0 0 10px red,
-    0 0 20px blue,
-    0 0 30px red,
-    0 0 40px red,
-    0 0 50px blue,
-    0 0 60px red;
+    0 0 5px rgb(251, 190, 246),
+    0 0 8px rgb(245, 111, 238),
+    0 0 9px rgb(242, 0, 255);
+    
 
 }
 #re{
@@ -118,12 +122,30 @@ h1{
     padding-top: 10px;
 } */
 .q2 > input{
-   background-color: aliceblue; 
-   color: brown;
+   background-color: rgb(0, 0, 0); 
+   color: rgb(246, 245, 245);
+   text-shadow: 
+   0 0 10px rgb(240, 240, 248),
+   0 0 20px rgb(99, 99, 243),
+   0 0 30px rgb(71, 71, 246),
+   0 0 40px rgb(0, 0, 249);
+
    /* margin: 20px 20px; */
-   padding-right: 13px;
-   padding-left: 13px;
+   padding-right: 20px;
+   padding-left: 20px;
    padding-top: 5px;
    padding-bottom: 5px;
-   font-size: 200%;
+   font-size: 250%;
+
+   /* border  */
+   border-radius: 15px;
+   border: white;
+
+   /* border color */
+   box-shadow: 
+   0 0 10px rgb(240, 228, 251),
+   0 0 15px rgb(182, 120, 240),
+   0 0 20px rgb(165, 85, 240),
+   0 0 25px rgb(156, 58, 248),
+   0 0 30px rgb(129, 7, 244); 
 }
